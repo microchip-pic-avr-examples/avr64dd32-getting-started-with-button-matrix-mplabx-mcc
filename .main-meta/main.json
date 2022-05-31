@@ -4,8 +4,8 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.avr64dd32-getting-started-with-button-matrix-mplabx-mcc",
-        "version": " ",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "Getting Started with Button Matrix Using the AVR64DD32 Microcontroller with MCC Melody",
         "projectName": "avr64dd32-getting-started-with-button-matrix-mplabx-mcc",
         "shortDescription": "Guide for using Button Matrix on the AVR64DD32 Microcontroller.",
         "ide": {
@@ -19,12 +19,12 @@
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "AVR-Dx_DFP",
+            "semverRange": "^2.1.152"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=5.1.1"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -37,8 +37,14 @@
             }
         },
         "author": "Bogdan-Alexandru Mariniuc",
-        "peripherals": [],
-        "keywords": [],
+        "peripherals": [
+            "GPIO"
+        ],
+        "keywords": [
+            "Getting Started",
+            "Button",
+            "GPIO"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
